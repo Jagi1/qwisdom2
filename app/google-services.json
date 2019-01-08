@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "286167245875",
+    "firebase_url": "https://qwisdom2-a5c50.firebaseio.com",
+    "project_id": "qwisdom2-a5c50",
+    "storage_bucket": "qwisdom2-a5c50.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:286167245875:android:46317f11d3857543",
+        "android_client_info": {
+          "package_name": "bandurski.s.qwisdom2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "286167245875-dtobat1d2cv78o9unvktovuate1r4neu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAm4uI65FMIy1YDZysBR-HwYCvBE9JqV_o"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

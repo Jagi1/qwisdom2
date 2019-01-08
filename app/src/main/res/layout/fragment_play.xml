@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/primaryDark">
+
+    <android.support.design.card.MaterialCardView android:id="@+id/card_view_play"
+        android:layout_width="0dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PLAY"
+            android:layout_gravity="center"/>
+
+    </android.support.design.card.MaterialCardView>
+
+    <LinearLayout android:id="@+id/linearLayout_second_row"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/card_view_play"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:layout_marginTop="10dp">
+
+        <android.support.design.card.MaterialCardView android:id="@+id/card_view_invite"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="5dp"
+            android:layout_weight="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/card_view_categories">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="INVITE FRIEND"
+                android:layout_gravity="center"/>
+
+        </android.support.design.card.MaterialCardView>
+
+        <android.support.design.card.MaterialCardView android:id="@+id/card_view_categories"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="10dp"
+            android:layout_weight="0.5"
+            app:layout_constraintStart_toEndOf="@id/card_view_invite"
+            app:layout_constraintEnd_toEndOf="parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CATEGORIES"
+                android:layout_gravity="center"/>
+
+        </android.support.design.card.MaterialCardView>
+
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>
